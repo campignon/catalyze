@@ -1,1 +1,1 @@
-[JHipster](JHipster)
+[JHipster](JHipster.md)
