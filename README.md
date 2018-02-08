@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Développement d'applications Java / Angular avec JHipster
 <br>
 
@@ -10,3 +11,4 @@
 - [Points d'entrées de l'API et réponse JSON](backend/ResourceControllers.md)
 
 ### Front-end (Angular 4+)
+
