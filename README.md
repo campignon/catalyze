@@ -1,5 +1,6 @@
 # Développement d'applications Java / Angular avec JHipster
 <br />
+
 ### Configuration
 
 ### Back-end (Spring REST API)

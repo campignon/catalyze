@@ -1,5 +1,6 @@
 ## Récupérer les données en base grâce aux Repositories
 <br />
+
 Les **Repositories** (ou **Spring Data Repositories**) ont le rôle d'aller effectuer une requête en base et de retourner les données récupérées. *Exemple : récupérer la liste des Recettes dans un annuaire de recettes de cuisine.*
 
 Ce sont des interfaces qui étendent l'interface générique **JpaRepository<K, V>**.
