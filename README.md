@@ -5,6 +5,10 @@
 
 - [Créer une nouvelle application JHipster](config/Init.md)
 
+### Schéma
+
+- [Création et maintien du schéma avec le JDL](schema/JDL.md)
+
 ### Back-end (Spring REST API)
 
 - [Récupérer les données en base grâce aux Repositories](backend/Repositories.md)
