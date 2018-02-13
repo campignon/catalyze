@@ -29,22 +29,51 @@ Si on avait en plus voulu dire que sa taille ne peut pas être supérieur à 50 
 
 #### Liste des types pour les attributs
 
-Voici la liste des types possibles pour les attributs d'une entité :
+Voici la liste des types possibles pour les attributs d'une entité ainsi que les validations disponibles pour chacun d'entre eux :
 
-| Types         |
-| --------------|
-| String        |
-| Integer       |
-| Long          |
-| BigDecimal    |
-| Float         |
-| Double        |
-| Enum          |
-| Boolean       |
-| LocalDate     |
-| ZonedDateTime |
-| Blob          |
-| AnyBlob       |
-| ImageBlob     |
-| TextBlob      |
-| Instant       |
+| Types         | Validations                             |
+| --------------| ----------------------------------------|
+| String        | required, minlength, maxlength, pattern |
+| Integer       | required, min, max                      |
+| Long          | required, min, max                      |
+| BigDecimal    | required, min, max                      |
+| Float         | required, min, max                      |
+| Double        | required, min, max                      |
+| Enum          | required                                |
+| Boolean       | required                                |
+| LocalDate     | required                                |
+| ZonedDateTime | required                                |
+| Blob          | required, minbytes, maxbytes            |
+| AnyBlob       | required, minbytes, maxbytes            |
+| ImageBlob     | required, minbytes, maxbytes            |
+| TextBlob      | required, minbytes, maxbytes            |
+| Instant       | required                                |
+
+### Exemple d'une entité concrète
+
+Imaginons que l'on créé une application pour un grand distributeur. Celui-ci vend des produits : il faut donc une entité Product.
+
+La définition de celle-ci pourrait donner quelque chose comme ceci :
+
+```
+entity Product {
+	name String required minlength(3) maxlength(255)
+	description TextBlob required maxbytes(2048)
+	limitedEdition Boolean required
+	price Float
+	stock Integer
+}
+```
+
+*Explication* 
+
+Un produit possède :
+
+- obligatoirement un nom qui ne peut pas faire moins de 3 caractères ni plus de 255 caractères ;
+- une description, requise aussi, qui est un TextBlob (le type pour les chaînes de caractères de longueur élevée) et qui ne doit pas dépasser les 2048 octets ;
+- un booléen **limitedEdition** qui indique si le produit est une édition limité ou non ;
+- le prix du produit qui est un flottant (le prix est rarement un entier) ;
+- un entier qui indique la quantité en stock du produit.
+
+### Création des relations entre les entités
+
