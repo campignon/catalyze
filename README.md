@@ -3,6 +3,8 @@
 
 ### Configuration
 
+- [Créer une nouvelle application JHipster](config/Init.md)
+
 ### Back-end (Spring REST API)
 
 - [Récupérer les données en base grâce aux Repositories](backend/Repositories.md)
@@ -11,3 +13,6 @@
 
 ### Front-end (Angular 4+)
 
+### Plugins
+
+- [Créer des graphiques avec Chart.js](plugins/Chart.js.md)

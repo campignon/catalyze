@@ -10,3 +10,5 @@ Ce sont des interfaces qui étendent l'interface générique **JpaRepository<K, 
 Les **Query Methods** sont des signatures de méthodes déclarées dans un **Repository** et dont la déclaration permet à JPA de construire une requête à destination de la base de données.
 
 Pour savoir comment travailler avec les **Spring Data Repositories** et utiliser les **Query Methods**, se référer à la documentation suivante : [Working with Spring Data Repositories](https://docs.spring.io/spring-data/jpa/docs/1.5.0.RELEASE/reference/html/repositories.html).
+
+**Les préfixes *find..By*, *read..By*, *query..By* et *get..By* peuvent être utilisés de la même façon : il s'agit juste d'alias qui ont le même fonctionnement derrière le rideau.**
