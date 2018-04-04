@@ -17,6 +17,7 @@
 
 ### Front-end (Angular 4+)
 
-### Plugins
+### Tâches communes
 
-- [Créer des graphiques avec Chart.js](plugins/Chart.js.md)
+- [Exporter des données au format CSV](commons/export-csv.md)
+- [Créer des graphiques avec Chart.js](commons/Chart.js.md)
