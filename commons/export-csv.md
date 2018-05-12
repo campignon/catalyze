@@ -104,3 +104,48 @@ public abstract class AbsCsvExporter<T> implements CsvExporter<T> {
 }
 
 ```
+
+### Créer un exporteur personnalisé
+
+La deuxième étape après l'intégration des deux fichiers cités précédemment est de créer un exporteur personnalisé dans lequel sera défini les champs qui apparaîtront dans le fichier final ainsi que leur contenu.
+
+Par exemple, imaginons que l'on souhaite exporter la liste des utilisateurs de l'application au format CSV. On créé alors une classe `UserCsvExporter` qui hérite de la classe abstraite `AbsCsvExporter` et on implémente la méthode abstraite `getLine` qui définit les champs que l'on retrouvera dans le fichier CSV.
+
+Voici un exemple de ce à quoi pourrait ressembler l'exporteur :
+
+```java
+package <basepackage>.web.rest.util.csv;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import <basepackage>.domain.User;
+
+public class UserCsvExporter extends AbsCsvExporter<User> {
+
+	@Override
+	public List<String> getLine(User user) {
+		List<String> fields = new ArrayList<>();
+		fields.add(String.valueOf(user.getId()));
+		fields.add(user.getFirstName());
+		fields.add(user.getLastName());
+		fields.add(user.getEmail());
+		return fields;
+	}
+
+}
+```
+
+Dans l'exemple ci-dessus, le fichier CSV final contiendra pour chaque utilisateur 4 champs : l'id de l'utilisateur, son prénom, son nom et son e-mail.
+
+On a donc quelque chose qui ressemble à ceci :
+
+```
+1,System,System,system@localhost
+2,Anonymous,User,anonymous@localhost
+3,Administrator,Administrator,admin@localhost
+4,User,User,user@localhost
+
+```
+
+### Créer un point d'entrée dans l'API pour télécharger le fichier CSV
