@@ -7,7 +7,8 @@
 
 ### Schéma
 
-- [Création et maintien du schéma avec le JDL](schema/JDL.md)
+- [Création du schéma avec le JDL](schema/JDL.md)
+- [Evolution du schéma](schema/evolution.md)
 
 ### Back-end (Spring REST API)
 
@@ -20,4 +21,4 @@
 ### Tâches communes
 
 - [Exporter des données au format CSV](commons/export-csv.md)
-- [Créer des graphiques avec Chart.js](commons/Chart.js.md)
+- [Créer des graphiques avec Chart.js](commons/chart.js.md)
