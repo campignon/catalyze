@@ -25,17 +25,13 @@ Pour tester que tout est OK :
 2. Taper la commande `yarn test` pour lancer les tests UI avec KarmaJS.
 
 
-### Ajouter un gestionnaire de versions
+### Ajouter un repository Git distant
 
-1. Initialiser un nouveau repository Git dans le dossier de l'application avec la commande `git init` ;
+Le générateur Yeoman de JHipster initialise un repository Git dans le dossier de l'application et fait un premier commit avec toutes les sources générées. Il ne manque plus qu'à ajouter un repository distant avec lequel communiquer :
 
-2. Ajouter un repository distant : `git remote add origin <REMOTE_URL>` ;
+1. Ajouter un repository distant : `git remote add origin <REMOTE_URL>` ;
 
-3. Ajouter les fichiers tout juste générés à l'index : `git add .` ;
-
-4. Faire un premier commit : `git commit -m "Initial commit"` puis pusher sur le repository distant : `git push origin master`.
-
-
+2. Pusher sur le repository distant : `git push origin master`.
 
 [Retour à l'accueil](../README.md)
 
