@@ -1,4 +1,4 @@
-[Retour à l'accueil](../README.md)
+[Retour à l'accueil](../index.md)
 
 # Création et mise en place d'un nouveau projet
 
@@ -33,6 +33,6 @@ Le générateur Yeoman de JHipster initialise un repository Git dans le dossier 
 
 2. Pusher sur le repository distant : `git push origin master`.
 
-[Retour à l'accueil](../README.md)
+[Retour à l'accueil](../index.md)
 
 
