@@ -1,3 +1,5 @@
-# Dévelopmment d'API REST avec Spring
+# Développement d'API REST avec Spring
 
-TODO
+- [Création et maintien du modèle de données](schema.md)
+- [Contrôleurs et points d'entrée de l'API]()
+- [Utilisation des services]()
