@@ -1,24 +1,26 @@
-# DÈveloppement d'applications Java / Angular avec JHipster
+# D√©veloppement d'applications Java / Angular avec JHipster
 <br />
 
 ### Configuration
 
-- [CrÈer une nouvelle application JHipster](config/Init.md)
+- [Cr√©er une nouvelle application JHipster](config/Init.md)
 
-### SchÈma
+### Sch√©ma
 
-- [CrÈation du schÈma avec le JDL](schema/JDL.md)
-- [Evolution du schÈma](schema/evolution.md)
+- [Cr√©ation du sch√©ma avec le JDL](schema/JDL.md)
+- [Evolution du sch√©ma](schema/evolution.md)
 
 ### Back-end (Spring REST API)
 
-- [RÈcupÈrer les donnÈes en base gr‚ce aux Repositories](backend/Repositories.md)
-- [Gestion de la couche mÈtier avec les Services](backend/Services.md)
-- [Points d'entrÈes de l'API et rÈponse JSON via les Resource Controllers](backend/ResourceControllers.md)
+- [R√©cup√©rer les donn√©es en base gr√¢ce aux Repositories](backend/Repositories.md)
+- [Gestion de la couche m√©tier avec les Services](backend/Services.md)
+- [Points d'entr√©es de l'API et r√©ponse JSON via les Resource Controllers](backend/ResourceControllers.md)
 
 ### Front-end (Angular 4+)
 
-### T‚ches communes
+### T√¢ches communes
 
-- [Exporter des donnÈes au format CSV](commons/export-csv.md)
-- [CrÈer des graphiques avec Chart.js](commons/chart.js.md)
+- [Utiliser une entit√© "CustomUser" pour enrichir l'entit√© "User" de JHipster](commons/custom-user.md)
+- [Exporter des donn√©es au format CSV](commons/export-csv.md)
+- [Cr√©er des graphiques avec Chart.js](commons/chart.js.md)
+- [Utiliser de services cartographiques avec Google Maps](commons/google-maps.md)

@@ -1,0 +1,1 @@
+## Utiliser une entité "CustomUser" pour enrichir l'entité "User" de JHipster
