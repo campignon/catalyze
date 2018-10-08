@@ -1,3 +1,5 @@
+[Retour à l'accueil](../index.md)
+
 # Création de graphiques avec Chart.js
 <br />
 
@@ -15,3 +17,4 @@ Vérifier dans le fichier *package.json* que la dépendance a bien été ajouté
 
 #### Graphique en barres
 
+[Retour à l'accueil](../index.md)

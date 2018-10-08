@@ -12,3 +12,8 @@ Les **Query Methods** sont des signatures de méthodes déclarées dans un **Rep
 Pour savoir comment travailler avec les **Spring Data Repositories** et utiliser les **Query Methods**, se référer à la documentation suivante : [Working with Spring Data Repositories](https://docs.spring.io/spring-data/jpa/docs/1.5.0.RELEASE/reference/html/repositories.html).
 
 **Les préfixes *find..By*, *read..By*, *query..By* et *get..By* peuvent être utilisés de la même façon : il s'agit juste d'alias qui ont le même fonctionnement derrière le rideau.**
+
+#### Exemples de Query Methods :
+
+A titre d'exemple, considérons une entité *Recipe* qui représente une recette de cuisine.
+
