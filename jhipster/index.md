@@ -14,7 +14,7 @@
 
 - [Récupérer les données en base grâce aux Repositories](backend/repositories.md)
 - [Gestion de la couche métier avec les Services](backend/services.md)
-- [Points d'entrées de l'API et réponse JSON via les Resource Controllers](backend/resourceControllers.md)
+- [Points d'entrées de l'API et réponse JSON via les Resource Controllers](backend/resource-controllers.md)
 
 ### Front-end (Angular 4+)
 
