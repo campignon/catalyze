@@ -1,3 +1,5 @@
+[Retour à l'accueil](../index.md)
+
 # Création du schéma avec le JHipster Domain Language (JDL)
 <br />
 
@@ -77,3 +79,4 @@ Un produit possède :
 
 ### Création des relations entre les entités
 
+[Retour à l'accueil](../index.md)

@@ -3,7 +3,7 @@
 
 ### Configuration
 
-- [Créer une nouvelle application JHipster](config/Init.md)
+- [Créer une nouvelle application JHipster](config/init.md)
 
 ### Schéma
 
@@ -12,9 +12,9 @@
 
 ### Back-end (Spring REST API)
 
-- [Récupérer les données en base grâce aux Repositories](backend/Repositories.md)
-- [Gestion de la couche métier avec les Services](backend/Services.md)
-- [Points d'entrées de l'API et réponse JSON via les Resource Controllers](backend/ResourceControllers.md)
+- [Récupérer les données en base grâce aux Repositories](backend/repositories.md)
+- [Gestion de la couche métier avec les Services](backend/services.md)
+- [Points d'entrées de l'API et réponse JSON via les Resource Controllers](backend/resourceControllers.md)
 
 ### Front-end (Angular 4+)
 
